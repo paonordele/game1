@@ -15,19 +15,19 @@ window.onload=function(){
 
     
         RockBtn.addEventListener("click", ()=>{
-            computerplay(ROCK);
+            playRound(ROCK);
         });
         
         PaperBtn.addEventListener("click", ()=>{
-            computerplay(PAPER);
+            playRound(PAPER);
         });
         
         ScissorsBtn.addEventListener("click", ()=>{
-            computerplay(SCISSORS);
+            playRound(SCISSORS);
         });
     
         
-        function computerplay(userOption) {
+        function playRound(userOption) {
             var computerrand = Math.floor(Math.random() * 3)+1;
                 
             if(userOption==1) 
@@ -95,7 +95,7 @@ window.onload=function(){
                     PlayerScore.innerHTML=winplayer;
                     ComputerScore.innerHTML=wincomputer;
                 }
-
+             
 
                     
            

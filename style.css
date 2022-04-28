@@ -1,5 +1,5 @@
 .container{
-    background-color:darkseagreen;
+    background-color:gray;
     padding: 16px;
     height:250px;
     border: 8px;
@@ -10,7 +10,7 @@
 }
 
 .head{
-    background-color:green;
+    background-color: royalblue;
     height: 100px;
     font-size: 55px;
     font-weight: bold;
@@ -29,7 +29,7 @@ button{
     border-radius: 8px;
     color:#E5E7EB;
     font-weight: bold;
-    background-color:darkgreen;
+    background-color: blueviolet;
     align-items: center;
     display: flexbox;
     image-resolution: 5px;
@@ -38,7 +38,7 @@ button{
   }
 
   .footer{
-    background-color:green;
+    background-color:royalblue;
     font-size: 30px;
     font-weight: bold;
     color: honeydew;
